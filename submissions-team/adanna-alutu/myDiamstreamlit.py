@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 model = joblib.load("submissions-team/adanna-alutu/final_xgboost_model.pkl")
-encoder = joblib.load("C:/Users/adann/Desktop/adagithub_clone/SDS-CP023-diamond-price-predictor/submissions-team/adanna-alutu/Ordinal_encoder.pkl")
+encoder = joblib.load("submissions-team/adanna-alutu/Ordinal_encoder.pkl")
 scaler = joblib.load("submissions-team/adanna-alutu/Standard_scaler.pkl")
 
 
